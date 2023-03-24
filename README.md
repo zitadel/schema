@@ -1,16 +1,14 @@
-schema
-======
-[![GoDoc](https://godoc.org/github.com/gorilla/schema?status.svg)](https://godoc.org/github.com/gorilla/schema)
-[![CircleCI](https://circleci.com/gh/gorilla/mux.svg?style=svg)](https://circleci.com/gh/gorilla/schema)
-[![Sourcegraph](https://sourcegraph.com/github.com/gorilla/schema/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/schema?badge)
+# schema
 
----
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Release](https://github.com/zitadel/schema/workflows/Release/badge.svg)](https://github.com/zitadel/schema/actions)
+[![Go Reference](https://pkg.go.dev/badge/github.com/zitadel/schema.svg)](https://pkg.go.dev/github.com/zitadel/schema)
+[![license](https://badgen.net/github/license/zitadel/schema/)](https://github.com/zitadel/schema/blob/master/LICENSE)
+[![release](https://badgen.net/github/release/zitadel/schema/stable)](https://github.com/zitadel/schema/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zitadel/schema)](https://goreportcard.com/report/github.com/zitadel/schema)
+[![codecov](https://codecov.io/gh/zitadel/schema/branch/main/graph/badge.svg?token=5QS2VEMCt2)](https://codecov.io/gh/zitadel/schema)
 
-**The Gorilla project has been archived, and is no longer under active maintainenance. You can read more here: https://github.com/gorilla#gorilla-toolkit**
-
----
-
-Package gorilla/schema converts structs to and from form values.
+Package zitadel/schema converts structs to and from form values. This is a maintained fork of [gorilla/schema](https://github.com/gorilla/schema)
 
 ## Example
 
