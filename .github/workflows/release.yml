@@ -25,7 +25,7 @@ jobs:
         with:
           go-version-file: 'go.mod'
       - run: go test -race -v -coverprofile=profile.cov .
-      - uses: codecov/codecov-action@v5.4.0
+      - uses: codecov/codecov-action@v5.5.1
         with:
           file: ./profile.cov
           name: codecov-go
